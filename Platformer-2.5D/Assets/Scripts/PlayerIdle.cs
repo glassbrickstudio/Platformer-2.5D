@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace RoundBearGames
 {
-public class PlayerIdle : CharacterStateBase
+public class PlayerIdle : CharacterState
 {
     //OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -21,21 +21,6 @@ public class PlayerIdle : CharacterStateBase
 
 
 
-            /////////////////////////////////////////////////movement script////////////////////////////////////////////
-            if (VirtualInputManager.Instance.MoveRight)
-            {
-               
-                
-                animator.SetBool(TransitionParameter.Move.ToString(), true);
-            }
-
-
-            if (VirtualInputManager.Instance.MoveLeft)
-            {
-               
-                animator.SetBool(TransitionParameter.Move.ToString(), true);
-            }
-            /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
         }

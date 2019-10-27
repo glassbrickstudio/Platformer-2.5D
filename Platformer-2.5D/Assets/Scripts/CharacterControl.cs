@@ -21,6 +21,8 @@ namespace RoundBearGames
         public float speed;
         public Animator animator;
         public Material material;
+        public bool MoveRight;
+        public bool MoveLeft;
                                     
 
 
@@ -47,10 +49,13 @@ namespace RoundBearGames
                 }
 
             }
-
-
-
         }
+
+
+
+
+
+
 
     }
 
