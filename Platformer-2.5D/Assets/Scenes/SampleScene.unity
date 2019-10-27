@@ -530,6 +530,20 @@ MonoBehaviour:
   speed: 2
   animator: {fileID: 1646424462}
   material: {fileID: 2100000, guid: 5c4989427c6b2f947aa1a5928d7c4a4d, type: 2}
+  MoveRight: 0
+  MoveLeft: 0
+--- !u!114 &1307241000353202313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307241000353202307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30aa49f3f9b50ef47ada1f788041ad9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3472560876285557878
 PrefabInstance:
   m_ObjectHideFlags: 0
