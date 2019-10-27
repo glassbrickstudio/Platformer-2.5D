@@ -20,6 +20,7 @@ namespace RoundBearGames
 
         public float speed;
         public Animator animator;
+        public Material material;
                                     
 
 
@@ -78,7 +79,29 @@ namespace RoundBearGames
 
 
 
+        public void ChangeMaterial()
+        {
+            if (material == null)
+            {
+                return;
 
+            }
+
+
+            Renderer[] arrMaterials = this.gameObject.GetComponentsInChildren<Renderer>();
+            foreach (Renderer r in arrMaterials)
+            {
+
+                if (r.gameObject != this.gameObject)
+                {
+                    r.material = material;
+                }
+
+            }
+
+
+
+        }
 
     }
 
